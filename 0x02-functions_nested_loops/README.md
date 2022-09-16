@@ -1,1 +1,2 @@
-MY FIRST C FUNCTIONS NESTED LOOPS README.d
+NESTED LOOPS FUNCTIONS
+Task 0 - A function that prints '_putchar'
