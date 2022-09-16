@@ -1,23 +1,13 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
-* _isalpha - check for an alphabetical letter
-* @value: value for consideration
-* Return: returns 1 if successful or 0 if otherwise
-*/
+ * _isalpha - check for lower case letter
+ * @c : character to check
+ * Return:0 or 1
+ */
 
-int _isalpha(int value)
-
+int _isalpha(int c)
 {
-if ((value >= 'a' || value >= 'A') && (value <= 'z' || value <= 'Z'))
+	return ((c >= 97 && c <= 122) || (c >= 65 && c <= 90));
 
-{
-return (1);
-}
-
-else
-
-{
-return (0);
-}
 }
