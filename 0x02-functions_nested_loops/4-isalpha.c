@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    int r;
+* _isalpha - check for an alphabetical letter
+* @value: value for consideration
+* Return: returns 1 if successful or 0 if otherwise
+*/
 
-    r = _isalpha('H');
-    _putchar(r + '0');
-    r = _isalpha('o');
-    _putchar(r + '0');
-    r = _isalpha(108);
-    _putchar(r + '0');
-    r = _isalpha(';');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+int _isalpha(int c);
+
+{
+if ((c >= 'a' || c >= 'A') && (c <= 'z' || c <= 'Z'))
+
+{
+return (1);
+}
+
+else
+
+{
+return (0);
+}
 }
